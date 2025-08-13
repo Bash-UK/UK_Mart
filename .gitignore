@@ -1,0 +1,49 @@
+# =========================
+# Python-generated files
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# =========================
+# Django-specific
+# =========================
+# SQLite database (if using)
+db.sqlite3
+
+# Static & media files
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Miscellaneous
+# =========================
+.DS_Store
+Thumbs.db
