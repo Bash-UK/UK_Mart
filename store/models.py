@@ -32,11 +32,7 @@ class Customer(models.Model):
     birth_date = models.DateField(null=True)
     membership_date = models.CharField(max_length=1,choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_BRONZE)
     
-    class Meta:
-        db_table = 'store_customers'  # Custom table name
-        indexes = [
-            models.Index(fields=['first_name', 'last_name'])
-        ]
+    
 class Order(models.Model):
     PAYMENT_PENDING = 'P'
     PAYMENT_COMPLETED = 'C'
